@@ -94,7 +94,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 h2{
     color: darkred;
@@ -120,9 +120,10 @@ h2{
     display: flex;
     flex-wrap: wrap;
    justify-content: space-between;
+   width: 65%;
 }
 .back2{
-    float: left;
+    float: left; padding-left: 3%;
 }
 .con_ind{
     display: flex;
