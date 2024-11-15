@@ -114,6 +114,7 @@ h2{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: darkred;
  justify-content: center;
+ flex-direction: row;
 }
 .organics{
     display: flex;
