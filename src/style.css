@@ -93,7 +93,8 @@ p {
 .Akua_images{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(248, 236, 214);
+    text-align: center;
+    flex-direction: row;
 }
 h2{
     color: darkred;
@@ -106,23 +107,29 @@ h2{
 .Akua nav a{ margin-right: 15px; 
 }
 .Contact{
-    display: flex;
-    flex-wrap: wrap;
-   margin-top: 2%;
-   margin-bottom: 2%;
-  justify-content: space-between;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: darkred;
- justify-content: center;
- flex-direction: row;
+   text-align: justify;
+   width: 100%;
+   /* border: 3px solid whitesmoke; */
+   font-size: 16px;
+   border-radius: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   /* flex-direction: row; */
 }
 .organics{
     display: flex;
     flex-wrap: wrap;
    justify-content: space-between;
-   justify-content: left; height: fit-content;
-   padding-right: 2%; text-align: justify;
 }
 .back2{
     float: left;
+}
+.con_ind{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    border: 3px solid whitesmoke;
+    justify-content: center;
+    margin: auto;
+    border-radius: 25px; margin-bottom: 2%;
 }
