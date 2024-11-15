@@ -1,6 +1,6 @@
 nav{
     display: flex;
-    gap: 70px;
+    gap: 30px;
     justify-content: center;
     background-color: rgb(248, 236, 214);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
@@ -15,7 +15,7 @@ nav{
 }
 nav a:hover {
     color: white;
-    background-color: goldenrod
+    background-color: peachpuff;
 }
    h1{
     color: darkred;
