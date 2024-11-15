@@ -68,7 +68,7 @@ h4{
     justify-content: left;
     padding-right: 20%; text-align: justify;
     border: 3px solid whitesmoke;
-    padding: 10px; border: 1px solid #ccc; margin: 2% 0; 
+    padding: 10px; border: 3px solid whitesmoke; margin: 2% 0; 
   }
 .image_container{
     flex: 1;
