@@ -58,18 +58,17 @@ h4{
 .aboutus{
     display: flex;
    justify-content: space-between; 
-    align-items: flex-start;
+   align-items: flex-start;
 }
 .aboutus_container{
     display: flex;
-    width: 80%;
-    border-radius: 40px;
+    width: 100%;
+    border-radius: 70px;
     justify-content: left;
     padding-right: 20%; text-align: justify;
     border: 3px solid whitesmoke;
-    margin-bottom: 2%;
-    padding: 20px; border: 1px solid #ccc; margin: 20px 0; 
-}
+    padding: 10px; border: 1px solid #ccc; margin: 2% 0; 
+  }
 .image_container{
     flex: 1;
     justify-content: space-between;
@@ -77,6 +76,7 @@ h4{
 .text_container{
     flex: 2;
     padding-right: 20px;
+    justify-content: center;
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -92,17 +92,17 @@ p {
 .Akua_images{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(248, 236, 214);   
+    background-color: rgb(248, 236, 214);
 }
 h2{
     color: darkred;
     line-height: 10%;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
 } 
-.Akua { background-color: #f8f8f8; padding: 20px; 
+.Akua{ background-color: #f8f8f8; padding: 20px; 
 } 
-.Akua nav a { margin-right: 15px; 
+.Akua nav a{ margin-right: 15px; 
 }
 .Contact{
     display: flex;
@@ -112,6 +112,7 @@ h2{
   justify-content: space-between;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: darkred;
+ justify-content: center;
 }
 .organics{
     display: flex;
@@ -122,5 +123,4 @@ h2{
 }
 .back2{
     float: left;
-    padding-top: 1%;
 }
