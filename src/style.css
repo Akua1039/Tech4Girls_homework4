@@ -119,7 +119,7 @@ h2{
     flex-wrap: wrap;
    justify-content: space-between;
    justify-content: left; height: fit-content;
-   padding-right: 20%; text-align: justify;
+   padding-right: 2%; text-align: justify;
 }
 .back2{
     float: left;
