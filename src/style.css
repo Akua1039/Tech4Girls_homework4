@@ -1,0 +1,126 @@
+nav{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    background-color: rgb(248, 236, 214);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif; font-size: 18px;
+   line-height: 200%;
+   margin: 5px;
+   text-decoration-color: darkred;
+ }
+ nav a{
+    color: darkred; 
+    text-decoration: none; 
+}
+nav a:hover {
+    color: white;
+    background-color: goldenrod
+}
+   h1{
+    color: darkred;
+    line-height: 10%;
+    margin-right: auto;
+   }
+.Akua{
+    background-image: url(../images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+.products{
+   text-align: justify;
+   width: 19%;
+   border: 3px solid whitesmoke;
+   background-color: rgb(248, 236, 214);
+   font-size: 16px;
+   border-radius: 30px;
+   padding: 10px 10px 10px;
+}
+.products:hover{
+    border: 2px solid lightpink; /* Add a border on hover */ 
+    border-style: groove;
+}
+.products_container{
+    display: flex;
+    flex-wrap: wrap;
+   margin-top: 2%;
+   margin-bottom: 2%;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ justify-content: space-evenly;
+ color: darkred;
+  }
+h4{
+    text-align: center;
+    color: darkred;
+}
+.aboutus{
+    display: flex;
+   justify-content: space-between; 
+    align-items: flex-start;
+}
+.aboutus_container{
+    display: flex;
+    width: 80%;
+    border-radius: 40px;
+    justify-content: left;
+    padding-right: 20%; text-align: justify;
+    border: 3px solid whitesmoke;
+    margin-bottom: 2%;
+    padding: 20px; border: 1px solid #ccc; margin: 20px 0; 
+}
+.image_container{
+    flex: 1;
+    justify-content: space-between;
+}
+.text_container{
+    flex: 2;
+    padding-right: 20px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: darkred;
+    text-align: justify;
+}
+.img_Akua{
+    float: right;
+   padding-right: 70px;
+   border: 1px solid whitesmoke;
+}
+.Akua_images{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(248, 236, 214);   
+}
+h2{
+    color: darkred;
+    line-height: 10%;
+    margin-right: auto;
+    text-align: center;
+} 
+.Akua { background-color: #f8f8f8; padding: 20px; 
+} 
+.Akua nav a { margin-right: 15px; 
+}
+.Contact{
+    display: flex;
+    flex-wrap: wrap;
+   margin-top: 2%;
+   margin-bottom: 2%;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkred;
+}
+.organics{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+   justify-content: left; height: fit-content;
+   padding-right: 20%; text-align: justify;
+}
+.back2{
+    float: left;
+    padding-top: 1%;
+}
