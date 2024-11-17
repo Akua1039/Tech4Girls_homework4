@@ -81,7 +81,7 @@ h4{
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     color: darkred;
     text-align: justify;
 }
@@ -120,7 +120,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
    justify-content: space-between;
-   width: 65%;
+   width: 55%;
 }
 .back2{
     float: left; padding-left: 3%;
